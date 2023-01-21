@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-21T18:10:19 IST" name="Suite" finished-at="2023-01-21T18:10:40 IST" duration-ms="21287">
+    <groups>
+      <group name="InvalidLogin">
+        <method signature="loginLogoutTest.invalidLoginVerification()[pri:0, instance:magentostore.tests.loginLogoutTest@2dfaea86]" name="invalidLoginVerification" class="magentostore.tests.loginLogoutTest"/>
+      </group> <!-- InvalidLogin -->
+    </groups>
+    <test started-at="2023-01-21T18:10:19 IST" name="Place Order Test" finished-at="2023-01-21T18:10:19 IST" duration-ms="23">
+    </test> <!-- Place Order Test -->
+    <test started-at="2023-01-21T18:10:19 IST" name="Account Creation Test" finished-at="2023-01-21T18:10:19 IST" duration-ms="31">
+    </test> <!-- Account Creation Test -->
+    <test started-at="2023-01-21T18:10:19 IST" name="login Logout Test" finished-at="2023-01-21T18:10:40 IST" duration-ms="21287">
+      <class name="magentostore.tests.loginLogoutTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:magentostore.tests.loginLogoutTest@2dfaea86]" started-at="2023-01-21T18:10:19 IST" name="launchApplication" finished-at="2023-01-21T18:10:28 IST" duration-ms="9250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="invalidLoginVerification()[pri:0, instance:magentostore.tests.loginLogoutTest@2dfaea86]" started-at="2023-01-21T18:10:28 IST" name="invalidLoginVerification" finished-at="2023-01-21T18:10:40 IST" duration-ms="11764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginVerification -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:magentostore.tests.loginLogoutTest@2dfaea86]" started-at="2023-01-21T18:10:40 IST" name="teardown" finished-at="2023-01-21T18:10:40 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- magentostore.tests.loginLogoutTest -->
+    </test> <!-- login Logout Test -->
+  </suite> <!-- Suite -->
+</testng-results>
