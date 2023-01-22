@@ -49,8 +49,8 @@ public class loginLogoutTest extends BaseTest{
 		SignInPage signinPage = landingPage.gotosigninPage();
 		signinPage.loginToAccount("nisha.shah@gmail.com", "Anisha@183");
 		String signinerror = signinPage.getloginerrormessage();
-		//Assert.assertEquals(signinerror,"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.");
-		Assert.assertEquals(signinerror,"Incorrect CAPTCHA");
+		Assert.assertEquals(signinerror,"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.");
+		//Assert.assertEquals(signinerror,"Incorrect CAPTCHA");
 	}
 	
 	
